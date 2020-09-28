@@ -1,0 +1,71 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif-font;
+  font-weight: 400;
+  color: $headings-color;
+}
+
+p {
+  font-family: $sans-serif-font;
+  font-weight: 400;
+  color: $paragraph-color;
+}
+
+h1 {
+  font-size: $h1-mobile;
+
+  @media screen and (min-width: 768px)  {
+    font-size: $h1-tablet;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $h1-desktop;
+  }
+}
+
+h2 {
+  font-size: $h2-mobile;
+
+  @media screen and (min-width: 768px)  {
+    font-size: $h2-tablet;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $h2-desktop;
+  }
+}
+
+h3 {
+  font-size: $h3-mobile;
+
+  @media screen and (min-width: 768px)  {
+    font-size: $h3-tablet;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $h3-desktop;
+  }
+}
+
+h4 {
+  font-size: $h4-mobile;
+
+  @media screen and (min-width: 768px)  {
+    font-size: $h4-tablet;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $h4-desktop;
+  }
+}
+
+h5 {
+  font-size: $h5-mobile;
+
+  @media screen and (min-width: 768px)  {
+    font-size: $h5-tablet;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $h5-desktop;
+  }
+}

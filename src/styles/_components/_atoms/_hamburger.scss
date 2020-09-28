@@ -1,0 +1,42 @@
+.a-hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+
+  @media screen and (min-width: 768px) {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  span {
+    width: 30px;
+    height: 2px;
+    background-color: $white;
+    margin-bottom: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.transformHam {
+  span {
+    transition: $duration;
+    margin: 0;
+  }
+
+  .one {
+    transform: rotate(45deg) translate(1px, 1px);
+  }
+
+  .two {
+    display: none;
+  }
+
+  .three {
+    transform: rotate(-45deg);
+  }
+}

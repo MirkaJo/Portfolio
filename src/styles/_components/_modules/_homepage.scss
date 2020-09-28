@@ -1,0 +1,30 @@
+.m-homepage {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient( rgba($black, .5) 100%, rgba($black, .5) 100%) , url("src/images/homepage/homepage-bcg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    text-align: right;
+    padding-top: 65vh;
+
+    @media screen and (min-width: 768px){
+      text-align: left;
+      padding-top: 60vh;
+    }
+
+    @media screen and (min-width: 1200px){
+      padding-top: 50vh;
+    }
+
+    .row {
+      justify-content: flex-end;
+      padding-right: 10px;
+    }
+
+    h6 {
+      margin-top: 30px;
+    }
+  }
+}

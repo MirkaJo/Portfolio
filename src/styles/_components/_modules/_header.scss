@@ -1,0 +1,74 @@
+.m-header {
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+  font-family: $serif-font;
+  padding: 20px 10px;
+
+  @media screen and (min-width: 768px){
+    padding: 20px;
+  }
+
+  @media screen and (min-width: 1200px){
+    padding: 20px 30px;
+  }
+
+  &__wrapper {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    z-index: 99999;
+
+    a {
+      font-size: 42px;
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: -100vw;
+    z-index: 9999;
+    background-color: $gray-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: 768px){
+      position: relative;
+      right: 0;
+      height: max-content;
+      background-color: transparent;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    a {
+      margin-top: 40px;
+      font-size: 42px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      @media screen and (min-width:768px){
+        font-size: 18px;
+        margin-top: 0;
+      }
+
+      @media screen and (min-width:1200px){
+        font-size: 25px;
+      }
+    }
+  }
+
+  .showMenu {
+    right: 0;
+    transition: $slow;
+  }
+}
