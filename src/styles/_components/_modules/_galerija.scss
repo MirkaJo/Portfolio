@@ -1,0 +1,68 @@
+.m-galerija {
+  padding: 20vh 0 50px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 992px){
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-template-rows: repeat(26, 120px);
+  }
+
+  @media screen and (min-width: 1200px){
+    grid-template-rows: repeat(26, 150px);
+  }
+
+  &__image {
+    margin-top: 30px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media screen and (min-width: 992px){
+      margin-top: 0;
+
+      &.-one {
+        grid-column: 1;
+        grid-row: 1 / span 4;
+      }
+
+      &.-two {
+        grid-column: 2;
+        grid-row: 4 / span 2;
+      }
+
+      &.-three {
+        grid-column: 1 / span 2;
+        grid-row: 7 / span 4;
+      }
+
+      &.-four {
+        grid-column: 1;
+        grid-row: 12 / span 4;
+      }
+
+      &.-five {
+        grid-column: 2;
+        grid-row: 15 / span 2;
+      }
+
+      &.-six {
+        grid-column: 1 / span 2;
+        grid-row: 18 / span 4;
+      }
+
+      &.-seven {
+        grid-column: 1;
+        grid-row: 23 / span 4;
+      }
+    }
+  }
+}

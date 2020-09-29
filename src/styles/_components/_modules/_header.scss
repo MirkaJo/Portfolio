@@ -3,19 +3,16 @@
   width: 100vw;
   z-index: 999;
   font-family: $serif-font;
-  padding: 20px 10px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
 
   @media screen and (min-width: 768px){
-    padding: 20px;
-  }
-
-  @media screen and (min-width: 1200px){
     padding: 20px 30px;
   }
 
-  &__wrapper {
-    justify-content: space-between;
-    align-items: center;
+  @media screen and (min-width: 1200px){
+    padding: 20px 40px;
   }
 
   &__logo {
@@ -23,6 +20,15 @@
 
     a {
       font-size: 42px;
+      line-height: 1;
+
+      @media screen and (min-width: 768px){
+        font-size: 52px;
+      }
+
+      @media screen and (min-width: 1200px){
+        font-size: 62px;
+      }
     }
   }
 

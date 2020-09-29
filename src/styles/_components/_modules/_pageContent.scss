@@ -1,0 +1,21 @@
+.m-pageContent {
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+
+  &.-homepage {
+    background-image: linear-gradient( rgba($black, .5) 100%, rgba($black, .5) 100%) , url("src/images/homepage/homepage-bcg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &.-o-meni {
+    background-color: $gray-dark;
+    background-image: none;
+  }
+
+  &.-galerija {
+    height: fit-content;
+  }
+
+}
