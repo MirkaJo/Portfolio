@@ -9,13 +9,23 @@
     background-position: center;
   }
 
-  &.-o-meni {
-    background-color: $gray-dark;
+  &.-darkBcg {
     background-image: none;
+    padding-bottom: 50px;
   }
 
-  &.-galerija {
-    height: fit-content;
+  &.-heightFitContent {
+    height: 100%;
   }
 
+  &.-heightAuto {
+    height: auto;
+  }
+
+  &__wrapper {
+
+    &.-paddingTop {
+      padding-top: 150px;
+    }
+  }
 }
