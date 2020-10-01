@@ -1,0 +1,16 @@
+.m-oMeni {
+
+  &__text {
+    margin-top: 40px;
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+
+      span {
+        font-size: 25px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
