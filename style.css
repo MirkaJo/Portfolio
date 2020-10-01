@@ -290,11 +290,14 @@ html {
 
 .m-oMeni__text {
   margin-top: 40px; }
+  .m-oMeni__text img {
+    margin-bottom: 50px; }
   .m-oMeni__text p {
     font-size: 20px;
     line-height: 30px; }
     .m-oMeni__text p span {
-      font-size: 25px;
+      font-family: "Abril Fatface", "Playfair Display", "Times New Roman", serif;
+      font-size: 30px;
       text-transform: uppercase; }
 
 .m-galerija {

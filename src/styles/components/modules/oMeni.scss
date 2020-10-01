@@ -3,12 +3,17 @@
   &__text {
     margin-top: 40px;
 
+    img {
+      margin-bottom: 50px;
+    }
+
     p {
       font-size: 20px;
       line-height: 30px;
 
       span {
-        font-size: 25px;
+        font-family: $serif-font;
+        font-size: 30px;
         text-transform: uppercase;
       }
     }
