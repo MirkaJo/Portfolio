@@ -1,18 +1,6 @@
 .m-oMeni {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 80px minmax(200px, auto) 1fr;
-
-  h1 {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    z-index: 55;
-    align-self: end;
-  }
 
   &__text {
-    grid-column: 2;
-    grid-row: 3;
     margin-top: 50px;
 
     p {
@@ -25,12 +13,5 @@
         text-transform: uppercase;
       }
     }
-  }
-
-  img {
-    grid-column: 2;
-    grid-row: 1/ span 2;
-    height: 100%;
-    object-fit: cover;
   }
 }

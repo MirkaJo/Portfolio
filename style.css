@@ -288,31 +288,15 @@ html {
       padding: 20px 40px;
       font-size: 16px; } }
 
-.m-oMeni {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 80px minmax(200px, auto) 1fr; }
-  .m-oMeni h1 {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    z-index: 55;
-    align-self: end; }
-  .m-oMeni__text {
-    grid-column: 2;
-    grid-row: 3;
-    margin-top: 50px; }
-    .m-oMeni__text p {
-      font-size: 20px;
-      line-height: 30px; }
-      .m-oMeni__text p span {
-        font-family: "Abril Fatface", "Playfair Display", "Times New Roman", serif;
-        font-size: 30px;
-        text-transform: uppercase; }
-  .m-oMeni img {
-    grid-column: 2;
-    grid-row: 1/ span 2;
-    height: 100%;
-    object-fit: cover; }
+.m-oMeni__text {
+  margin-top: 50px; }
+  .m-oMeni__text p {
+    font-size: 20px;
+    line-height: 30px; }
+    .m-oMeni__text p span {
+      font-family: "Abril Fatface", "Playfair Display", "Times New Roman", serif;
+      font-size: 30px;
+      text-transform: uppercase; }
 
 .m-galerija {
   padding-top: 20vh;
