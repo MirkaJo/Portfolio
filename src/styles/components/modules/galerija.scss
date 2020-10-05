@@ -1,7 +1,6 @@
 .m-galerija {
   padding-top: 20vh;
   display: grid;
-  grid-template-columns: 1fr;
 
   @media screen and (min-width: 992px){
     grid-template-columns: 1fr 1fr;
@@ -11,6 +10,10 @@
 
   @media screen and (min-width: 1200px){
     grid-template-rows: repeat(26, 150px);
+  }
+
+  @media screen and (min-width: 1600px){
+    grid-template-rows: repeat(26, 200px);
   }
 
   &__image {
